@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './Components/Home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import VideoCallPage from './Components/VideoPlayer/VideoCallPage';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/videocall' element={<VideoCallPage />} />
+            <Route path='/*' element={<h1>Not Found</h1>} />
           </Routes>
         </BrowserRouter>
     </>
