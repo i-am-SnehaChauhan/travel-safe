@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<h1 align='center'>TravelSafe: Strengthening Your Sense of Security with Virtual Connections</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+<table style="border: none;">
+  <tr>
+    <td>TravelSafe is an innovative web application that prioritizes and enhances women's travel safety. With a deep understanding of women's unique challenges and concerns, TravelSafe is here to accompany you on your journeys, providing an extra layer of protection. With our innovative virtual connection feature, you can now create the impression of being in constant contact with your loved ones, ensuring your safety while interacting with cab drivers. </td>
+  </tr>
+</table>
 
-## Available Scripts
 
-In the project directory, you can run:
+## What Does It Do? 
+Travel Safe is dedicated to empowering women's safety during their travels. By incorporating the virtual connection feature, the app strives to provide a heightened sense of security and peace of mind, allowing women to navigate their journeys with increased confidence and assurance. We understand the importance of maintaining security, particularly when utilizing transportation services in unfamiliar locations. Our new faking video call feature is designed to help you establish a perceived connection with your family or friends, creating an added deterrent for any potential risks.
 
-### `npm start`
+## Backstory: Why We Built This Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Components of Website
 
-### `npm test`
+### Landing page
+ <p>When you visit our website, you'll be greeted by an engaging landing page that captures the essence of Safety.</p>
+ 
+ <img width="1346" alt="Screenshot 2023-06-25 at 7 02 21 PM" src=""> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ <img width="1390" alt="Screenshot 2023-06-25 at 7 02 37 PM" src="">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Key Features✨
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Faking Video Call
+* The faking video call feature creates the impression of being in contact with your family or friends through a simulated video call within the Travel Safe app.
+* It aims to deter potential risks by making it appear as if you are engaged in a live conversation.
+* Customize the video call scenarios with pre-recorded clips featuring family members or friends to add authenticity.
 
-### `npm run eject`
+<img width="1369" alt="Screenshot 2023-06-25 at 7 08 47 PM" src="">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Customizable Scenarios:
+* Customize video call scenarios according to your preferences.
+* Choose from a selection of pre-recorded video clips.
+* Video clips feature family members or friends engaging in casual conversations.
+* Customization adds authenticity to the virtual connection.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Realistic Display:  
+•User-friendly interface: The Travel Safe app offers a user-friendly interface.
+* Realistic display: The app provides a realistic display of the faking video call feature.
+* Live video feed: The display includes a simulated live video feed for added authenticity.
+* Time stamps: The interface incorporates time stamps, enhancing the realistic appearance.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h1 align='center'> Technology Stack Used</h1>
+<div align="center">
+ <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white">
+ <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white">
+ <img src="https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=white">
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=white">
+ <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge">
+ <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white">
+ <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1 align='center'>Contributors</h1>
+<img width="1440" alt="Screenshot 2023-06-25 at 7 02 49 PM" src="">
