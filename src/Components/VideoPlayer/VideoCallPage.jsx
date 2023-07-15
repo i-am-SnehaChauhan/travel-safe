@@ -2,6 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import { Box, Typography, IconButton } from '@mui/material';
 import { VolumeOff, CallEnd, MicOff } from '@mui/icons-material';
+import Speech from '../Speech/Speech';
 
 function VideoCallPage() {
   return (
@@ -37,7 +38,7 @@ function VideoCallPage() {
         }}
       >
         <Typography variant="subtitle1" sx={{ fontSize: '1rem', lineHeight: 1.5 }}>
-          Subtitle goes here
+          <Speech />
         </Typography>
       </Box>
 
