@@ -73,18 +73,42 @@ function Speech() {
     setSentences(script);
   }, []);
 
+
   useEffect(() => {
-    if (recognizedText && recognizedText.toLowerCase().includes(getCurrentSentence().toLowerCase())) {
-      if (currentSentenceIndex < sentences.length - 1) {
-        setCurrentSentenceIndex((prevIndex) => prevIndex + 1);
-      } else {
-        setIsVideoCallComplete(true);
-      }
+    if (recognizedText) {
+      const currentSentence = getCurrentSentence();
+      const matchingPercentage = getMatchingPercentage(recognizedText, currentSentence);
+
+      if (matchingPercentage >= 80) {
+        if (currentSentenceIndex < sentences.length - 1) {
+          setIsRecording(false); // Stop recording temporarily
+          setTimeout(() => {
+            setCurrentSentenceIndex((prevIndex) => prevIndex + 1);
+            setRecognizedText('');
+            setIsRecording(true); // Resume recording after the delay
+          }, 1000); // Delay of 1 seconds
+        } else {
+          setIsVideoCallComplete(true);
+        }
+      } 
     }
   }, [recognizedText]);
 
+
   const getCurrentSentence = () => {
     return sentences[currentSentenceIndex] || '';
+  };
+
+  const getMatchingPercentage = (recognizedText, sentence) => {
+    if (!recognizedText || !sentence) {
+      return 0;
+    }
+    const recognizedWords = recognizedText.toLowerCase().split(' ');
+    const sentenceWords = sentence.toLowerCase().split(' ');
+
+    const matchedWords = recognizedWords.filter((word) => sentenceWords.includes(word));
+
+    return (matchedWords.length / sentenceWords.length) * 100;
   };
 
   const highlightText = (recognizedText, sentence) => {
@@ -107,6 +131,17 @@ function Speech() {
     return highlightedSentence;
   };
 
+  const handleNextSentence = () => {
+    if (currentSentenceIndex < sentences.length - 1) {
+      setCurrentSentenceIndex((prevIndex) => prevIndex + 1);
+      setRecognizedText('');
+    } else {
+      setIsVideoCallComplete(true);
+    }
+  };
+
+
+
   const handleModalClose = () => {
     setIsVideoCallComplete(false);
     window.location.reload();
@@ -120,6 +155,9 @@ function Speech() {
           Start Recording
         </button>
       )}
+      <button onClick={handleNextSentence} disabled={!modelLoaded || isVideoCallComplete}>
+        Next Sentence
+      </button>
       <p>Recognized Text: {recognizedText}</p>
       <ModalComponent open={isVideoCallComplete} handleClose={handleModalClose} />
     </div>
