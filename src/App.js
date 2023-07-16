@@ -10,7 +10,6 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/videocall' element={<VideoCallPage />} />
-            <Route path='/*' element={<h1>Not Found</h1>} />
           </Routes>
         </BrowserRouter>
     </>
