@@ -1,4 +1,6 @@
 import React from 'react'
+import LoginButton from '../LoginButton/LoginButton'
+import LogoutButton from '../LogoutButton/LogoutButton'
 const Home = () => {
   return (
     <>
@@ -41,11 +43,15 @@ const Home = () => {
               Team
             </a>
           </li>
-          <li className="nav__item">
-            <a href="/accounts" className="nav__link">
-              Login
-            </a>
-          </li>
+          {/* <li className="nav__item"> */}
+            {/* <a href="/accounts" className="nav__link"> */}
+            <div className='loginButton'>
+               <LoginButton/>
+               <LogoutButton/>
+            </div>
+             
+            {/* </a> */}
+          {/* </li> */}
           <li>
             <i className="bx bx-toggle-left change-theme" id="theme-button" />
           </li>
