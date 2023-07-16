@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/travel-safe/static/css/main.4bb2e2ba.css",
+    "main.js": "/travel-safe/static/js/main.ea81d3b1.js",
+    "index.html": "/travel-safe/index.html",
+    "main.4bb2e2ba.css.map": "/travel-safe/static/css/main.4bb2e2ba.css.map",
+    "main.ea81d3b1.js.map": "/travel-safe/static/js/main.ea81d3b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bb2e2ba.css",
+    "static/js/main.ea81d3b1.js"
+  ]
+}
