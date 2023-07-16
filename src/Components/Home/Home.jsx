@@ -43,6 +43,11 @@ const Home = () => {
               Team
             </a>
           </li>
+          <li className="nav__item">
+            <a href="/videocall" className="nav__link" >
+              VideoCall
+            </a>
+          </li>
           {/* <li className="nav__item"> */}
             {/* <a href="/accounts" className="nav__link"> */}
             <div className='loginButton'>
