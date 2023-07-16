@@ -130,13 +130,14 @@ const Home = () => {
       <div className="decoration__container bd-grid">
         <div className="decoration__data">
           <img
-            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687072589/pryde_graphics-3_ylq42o.png"
+            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689503240/travelsafe_graphics-3_zuia9l.png"
             alt=""
             className="decoration__img"
             id="apple_render"
           />
-          <h3 className="decoration__title">Reading Area</h3>
-          <p>View a collection of resources related to sexual health and how you can stay safe physically and mentally. Spread love, be healthy, be you!</p><br></br>
+          <h3 className="decoration__title">Seamless Login with Auth0</h3>
+          <p>
+          TravelSafe offers seamless login with Auth0, ensuring quick and secure access to prioritize your safety during travels.</p>
           {/*<a href="./view/designsolve.html" class="button button-link">Details</a>*/}
           <div className="button">
             <a
@@ -150,17 +151,16 @@ const Home = () => {
         </div>
         <div className="decoration__data">
           <img
-            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687072287/pryde_graphics-2_rnm5jd.png"
+            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689503240/travelsafe_graphics-4_otxild.png"
             alt=""
             className="decoration__img"
             id="burger_render"
           />
-          <h3 className="decoration__title">InclusiBot</h3>
-          <p>Co:here-powered chatbot for LGBTQ+ sexual health. Multilingual support with Azure Translator. Chat freely in your language!</p><br></br>
+          <h3 className="decoration__title">Fake Video Calls</h3>
+          <p>TravelSafe's Fake Video Calls feature creates the illusion of real conversations, providing women with an extra layer of protection during their travels.</p>
           <div className="button">
             <a
               href="https://prydebot.streamlit.app/"
-              target="_blank"
               className="button-link"
               style={{ color: "white" }}
             >
@@ -170,13 +170,13 @@ const Home = () => {
         </div>
         <div className="decoration__data">
           <img
-            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687073260/pryde_graphics-4_t07meb.png"
+            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689503241/travelsafe_graphics-5_vtqwyf.png"
             alt=""
             className="decoration__img"
             id="milk_render"
           />
-          <h3 className="decoration__title">Forum d'amour</h3>
-          <p>An extensive community support forum for sexual health & hygiene. Get answers, collaborate, and empower yourself! </p><br></br>
+          <h3 className="decoration__title">Cab BlackBox</h3>
+          <p>It records in-cab conversations discreetly, ensuring valuable evidence is captured for passenger safety in case of potential dangers or incidents. </p>
           <div className="button">
             <a
               href="./view/hacksolve.html"

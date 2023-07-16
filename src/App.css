@@ -258,7 +258,7 @@ img {
 }
 
 .decoration__img {
-  width: 180px;
+  height: auto;
 }
 #render{
   width: 250px;
@@ -268,14 +268,12 @@ img {
 }
 
 #apple_render {
-  width: 400px;
-  height: 250px;
+  height:250px;
   border-radius: 10px;
   margin-bottom: 1.3rem;
 }
 
 #burger_render {
-  width: 400px;
   height: 250px;
   border-radius: 10px;
   margin-bottom: 1.3rem;
@@ -283,7 +281,6 @@ img {
 }
 
 #milk_render {
-  width: 300px;
   height: 250px;
   border-radius: 10px;
   margin-bottom: 1.3rem;
