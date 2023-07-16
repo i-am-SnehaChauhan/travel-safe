@@ -1,6 +1,7 @@
 ![](https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689496164/Connectify_Banner-3_jh2hhm.png)
 
 <h1 align='center'>TravelSafe: Empowering Women's Journeys with Virtual Protection</h1>
+
 ## Introduction
 <table style="border: none;">
   <tr>
@@ -15,15 +16,14 @@ Travel Safe is dedicated to empowering women's safety during their travels. By i
 ## Backstory: Why We Built This Project
 The idea for TravelSafe was born from a personal experience I had one night when I was traveling from the airport at 1:00 am. Everyone in my family was asleep, and I couldn't reach my best friend. The thought of being alone with the cab driver made me feel scared and uncomfortable. I desperately wished I could just video call someone at that moment for reassurance. This experience led me to realize that many women face similar situations while traveling late at night in public transport. I began to envision a solution that would not only allow women to make fake video calls, simulating real conversations to deter potential threats, but also share their location and the car's license plate with their loved ones for an added layer of safety. Thus, the idea of TravelSafe was born, aiming to provide women with the means to protect themselves and feel safer during their journeys.
 
-# Components of Website
+# Components of TravelSafe
 
 ### Landing page
  <p>When you visit our website, you'll be greeted by an engaging landing page that captures the essence of Safety.</p>
  
- <img width="1346" alt="Screenshot 2023-06-25 at 7 02 21 PM" src=""> 
+ <img width="1346" alt="Screenshot 2023-06-25 at 7 02 21 PM" src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689505822/Screenshot_2023-07-16_at_4.39.15_PM_oanln5.png"> 
 
- <img width="1390" alt="Screenshot 2023-06-25 at 7 02 37 PM" src="">
-
+ <img width="1390" alt="Screenshot 2023-06-25 at 7 02 37 PM" src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689505823/Screenshot_2023-07-16_at_4.39.24_PM_zvcc3j.png">
 
 
 # Key Features✨
@@ -33,7 +33,7 @@ The idea for TravelSafe was born from a personal experience I had one night when
 * It aims to deter potential risks by making it appear as if you are engaged in a live conversation.
 * Customize the video call scenarios with pre-recorded clips featuring family members or friends to add authenticity.
 
-<img width="1369" alt="Screenshot 2023-06-25 at 7 08 47 PM" src="">
+<img width="1369" alt="Screenshot 2023-06-25 at 7 08 47 PM" src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689505821/Screenshot_2023-07-16_at_4.39.36_PM_mldsgp.png">
 
 
 ### Customizable Scenarios:
@@ -62,4 +62,4 @@ The idea for TravelSafe was born from a personal experience I had one night when
 </div>
 
 <h1 align='center'>Contributors</h1>
-<img width="1440" alt="Screenshot 2023-06-25 at 7 02 49 PM" src="">
+<img width="1440" alt="Screenshot 2023-06-25 at 7 02 49 PM" src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1689505943/Screenshot_2023-07-16_at_4.42.09_PM_lab89u.png">
