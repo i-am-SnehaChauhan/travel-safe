@@ -8,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/travel-safe' element={<Home />} />
             <Route path='/videocall' element={<VideoCallPage />} />
           </Routes>
         </BrowserRouter>
