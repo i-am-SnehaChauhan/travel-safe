@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
           <Routes>
             <Route path='/travel-safe' element={<Home />} />
-            <Route path='/videocall' element={<VideoCallPage />} />
+            <Route path='/travel-safe/videocall' element={<VideoCallPage />} />
           </Routes>
         </BrowserRouter>
     </>
